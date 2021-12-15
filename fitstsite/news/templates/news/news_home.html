@@ -1,8 +1,6 @@
 {% extends 'main/layaut.html' %}
 
-{% block title %}Новости на сайте<{% endblock %}
-
-
+{% block title %}Новости на сайте{% endblock %}
 
 {% block content %}
     <div class='features'>
@@ -12,6 +10,7 @@
                 <div class="alert alert-warning">
                     <h3>{{ el.title }}</h3>
                     <p>{{ el.anons }}</p>
+                    <a href="{% url 'news-detail' el.id %}" class="btn btn-warning">Читать детали</a>
                 </div>
             {% endfor %}
         {% else %}
