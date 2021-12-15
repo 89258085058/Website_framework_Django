@@ -10,14 +10,14 @@
 </head>
 <body>
     <aside>
-        <img src="{% static 'main/img/log.png' %}" alt="ItBank">
-        <span class="logo">RUSBank</span>
+        <img src="{% static 'main/img/777.png' %}" alt="ItBank">
+        <span class="logo">QA News</span>
         <h3>Навигация</h3>
         <ul>
             <a href="{% url 'home' %}"><li><i class="fas fa-home"></i> Главная</li></a>
             <a href="{% url 'about' %}"><li><i class="fas fa-address-card"></i> Про нас</li></a>
             <a href="{% url 'news_home' %}"><li><i class="far fa-newspaper"></i> Новости</li></a>
-            <a href=""><li><i class="far fa-address-book"></i> Контакты</li></a>
+            <a href="{% url 'contact' %}"><li><i class="far fa-address-book"></i> Контакты</li></a>
             <a href="{% url 'create' %}"><li><button class="btn btn-info"><i class="fas fa-plus-circle"></i>Добавить</button></li></a>
         </ul>
     </aside>
