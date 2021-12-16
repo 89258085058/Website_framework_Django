@@ -1,1 +1,1 @@
-http://qa-news.site/
+http://qa-news.site
