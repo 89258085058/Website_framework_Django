@@ -1,1 +1,1 @@
-http://www.qa-news.site/
+https://server-learn-qa.ru/
